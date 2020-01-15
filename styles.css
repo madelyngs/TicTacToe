@@ -1,0 +1,35 @@
+#board {
+    display: inline-table;
+    padding: 3em;
+    text-align: center;
+}
+
+.row {
+    display: table;
+    clear: right;
+    width: 302px;
+    margin: 0 auto;
+}
+
+.row > div {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.top { 
+    border-bottom: 1px solid black;
+}
+
+.bottom { 
+    border-top: 1px solid rgb(80, 15, 69);
+} 
+
+.left { 
+    border-right: 1px solid rgb(25, 131, 73);
+}
+
+.right { 
+    border-left: 1px solid rgb(161, 39, 39);
+}
+ 
