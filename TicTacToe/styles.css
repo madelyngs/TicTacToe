@@ -1,0 +1,90 @@
+.board {
+    display: inline-table;
+    padding: 3em;
+    text-align: center;
+}
+
+.border{
+    margin: 3em auto 1em;
+    height: 25em;
+    width: 25em;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: .25em;
+    border-radius: 3em;
+}
+
+.row {
+    width: 302px;
+    margin: 0 auto;
+}
+
+div.row > div {
+    clear: right;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.top { 
+    border-bottom: 1px solid rgb(187, 112, 1);
+}
+
+.bottom { 
+    border-top: 1px solid rgb(187, 112, 1);
+} 
+
+.left { 
+    border-right: 1px solid rgb(187, 112, 1);
+}
+
+.right { 
+    border-left: 1px solid rgb(187, 112, 1);
+}
+
+.cell {
+    font-family: fantasy;
+    font-size: 5.5em;
+    background-color: rgba(16, 160, 165, 0.425);
+    color: olive;
+}
+
+.title {
+    margin: .25em auto .25em;
+    padding: .25em;
+    width: 7em;
+    border: 2px solid rgb(109, 10, 60);
+    border-radius: 1em;
+    background-color: rgb(158, 131, 137);
+}
+
+#tag {
+    color: indigo;
+    margin: 0 auto .5em;
+    display: none;
+    padding: .25em;
+    height: 1.25em;
+    width: 5em;
+    background-color: lavenderblush;
+}
+
+body {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+button {
+    font-family: serif;
+    font-size: 1.5em;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    color: lightyellow;
+    border: 7px solid royalblue;
+    border-radius: 1em;
+    background-color: rgb(53, 146, 53);
+    box-shadow: tomato;
+    
+}
+ 
