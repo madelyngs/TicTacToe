@@ -58,6 +58,7 @@ div.row > div {
     border: 2px solid rgb(109, 10, 60);
     border-radius: 1em;
     background-color: rgb(158, 131, 137);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #tag {
@@ -68,23 +69,24 @@ div.row > div {
     height: 1.25em;
     width: 5em;
     background-color: lavenderblush;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-    background-color: lightgreen;
+    background-color: rgba(171, 144, 235, 0.719);
     text-align: center;
 }
 
 button {
-    font-family: serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     padding: 0.5em 2em;
     cursor: pointer;
-    color: lightyellow;
-    border: 7px solid royalblue;
+    color: rgb(145, 178, 206);
+    border: 7px solid rgb(15, 76, 87);
     border-radius: 1em;
-    background-color: rgb(53, 146, 53);
-    box-shadow: tomato;
+    background-color: rgba(161, 60, 123, 0.733);
+    box-shadow: rgb(71, 181, 255);
     
 }
  
